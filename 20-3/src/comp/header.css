@@ -1,0 +1,8 @@
+.card-body{
+    display: flex;
+
+}
+.card-body p {
+    width: 90%;
+}
+
