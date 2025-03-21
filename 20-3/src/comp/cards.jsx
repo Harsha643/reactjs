@@ -1,6 +1,7 @@
 import './cards.css'
+// import Nav from './nav.jsx '
 function Cards(){
-    return <div className="naaistam">
+    return <div className="naaistam" >
         <div className="card" style={{"width" : "18rem"}}>
   <img src="https://www.shutterstock.com/image-photo/walking-happy-girl-friends-university-600nw-2477767447.jpg" className="card-img-top" alt="..." />
   <div className="card-body">

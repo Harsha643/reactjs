@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "name":"harsha",
+        "email":"harsha@gamil.com",
+        "age":21
+    },
+    {
+        "id":1,
+        "name":"sai",
+        "email":"sai@gamil.com",
+        "age":21
+    }
+]
