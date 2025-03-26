@@ -1,8 +1,13 @@
 let Third=(props)=>{
-    console.log(props.props.props.greet)
+    
+    let {props:{props:{greet="harsha",name="vardhan"}}} =props
+
+    greet="harsha"
+    name="vardhan"
+
     return (
         <>
-        <h1>i don't know about you {props.props.props.greet} {props.props.props.name}</h1>
+        <h1>i don't know about you {greet} {name}</h1>
         </>
     )
 
