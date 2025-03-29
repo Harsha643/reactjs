@@ -4,8 +4,8 @@ import { StudentData } from '../../custom/studentdata'
 const Student = () => {
   return (
   <>
-    {/* <h1>Student-management</h1>
-    <input type="text" placeholder='Enter student name ' /> */}
+    <h1>Student-management</h1>
+    <input type="text" placeholder='Enter student name ' />
     
   <table border={1} cellSpacing={0}>
     <thead>

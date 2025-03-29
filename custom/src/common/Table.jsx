@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Table = (props) => {
-    // console.log(props.dataSourse)
+    // console.log(props)
   return (
     <table border={2} cellSpacing={0}>
         <thead>
@@ -21,18 +21,22 @@ const Table = (props) => {
         <tbody>
                 {
                     props.dataSourse.map((Val,ind)=>{
+                        console.log(Val)
                         
                         return (
                            <tr>
                                 {props.columns.map((col)=>{
+
                                     return(
                                         <>
-                                        <th>{Val[col]}</th>
+                                        <td>{Val[col]}</td>
                                         </>
                                     )
 
 
                                 })}
+
+                                  
                            </tr>
                         )
                     })
